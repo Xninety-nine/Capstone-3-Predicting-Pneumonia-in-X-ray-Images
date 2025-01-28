@@ -62,7 +62,8 @@ In this part of the project I decide to choose to build two Convolutional Neural
 In the second model_2 I include BatchNormalization, Dropout and L2 regularization to improve generalization and reduce overfitting, this however leads to increased time needed to train the model.  
 
 
-# 5. Model evaluation and Metrics: In this part of the process I use a classification report, confusion matrix and test accuracy to compare how both models perform.
+# 5. Model evaluation and Metrics: 
+- In this part of the process I use a classification report, confusion matrix and test accuracy to compare how both models perform.
 - Model 1 classification report and accuracy: The metric that I decided to focus on is Recall or True Postitive Rate as this metric is vital in correctly evaluating if my model does what its suppose to which is to identify X-ray images of patients with Pneumonia.
 While this models test accuracy is 77% its Recall score for classifying patients with Pneumonia is 87%.
 
