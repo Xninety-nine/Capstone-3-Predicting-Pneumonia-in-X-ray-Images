@@ -81,9 +81,18 @@ While this models test accuracy is 77% its Recall score for classifying patients
 
 
 
-# 6. Conclusion:
+# 6. Reccomendations:
 
 Given that my stated goal was to develop a model that was effective at identifying X-ray images of patients with Pneumonia my first model achieved a Recall socre of 87%. While this leaves room for improvement considering that not identifying a patient with Pneumonia can have catostrophic consequences, this is a great first step and can be used as a prescreening tool in medical diagnosis.
+
+Below are 3 reccommendations for the use of this model:
+1. This Model can be used to improve speed and efficiency in detection of Pneumonia. This model can help to increase productivity of radiologists and improve diagnosis accuracy.
+
+
+2. This Model can be used to detect early signs of pneumonia that might not be immediatley apparent to the human eye. Early diagnosis can be vital in treatment of this illness.
+
+
+3. This model can be used in areas where radiologists are scares or unavalable. This models can be made avalable online and images of X-rays can be uploaded to help underdeveloped areas improve diagnosis of pneumonia. 
 
 # 7. Next steps:
 - 1. Retrain model on at least 50 epochs as this is the suggested number for medical imaging.
