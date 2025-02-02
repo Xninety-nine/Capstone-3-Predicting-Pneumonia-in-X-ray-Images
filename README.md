@@ -55,7 +55,7 @@ In this step of the project I examine the qualites of my data such as number of 
 
 
 # 3. Preprocessing: 
-In preprocessing I load ImageDataGenerator which helps with data augmentation on images. This part of the project involves rescaling images, randomly adding image rotation and shifts to improve roboutness of the model.
+In preprocessing I apply resizing to standardize images to 224 which is the standard shape for many CNN models. I also normalize pixel values by dividing them by 255 to scale them between 0 and 1. This helps CNN train faster and generalize better. Additionally images are reshaped into 4D tensors (batch_size, height, width and channels) 
 
 # 4. Modeling: 
 In this part of the project I decide to choose to build two Convolutional Neural Network models. The first model is set as sequential which means that data flows linearly from one layer to the next. The first convolutional layer applies a filter and a ReLU is applied to replace negative values with 0. The model transforms image data into abstract features and then uses those featurs to make a binary classification predicting Pneumonia or Normal.
