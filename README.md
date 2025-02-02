@@ -72,6 +72,8 @@ While this models test accuracy is 76% its Recall score for classifying patients
 
 #Model 1 Metrics:
 
+
+
 ![image](https://github.com/user-attachments/assets/e7bdf88d-e5ec-4231-aa32-01758ff69730)
 
 
@@ -80,6 +82,9 @@ While this models test accuracy is 76% its Recall score for classifying patients
 - Model_2 classification report and accuracy: The metric that I decided to focus on for model_2 was Recall. This models recall score was slightly higher at 85% and its accuracy was also higher at 83%. 
 
 #Model 2 Metrics
+
+
+
 ![image](https://github.com/user-attachments/assets/d37b48ce-7646-4597-ba86-7adeac7416f6)
 
 
