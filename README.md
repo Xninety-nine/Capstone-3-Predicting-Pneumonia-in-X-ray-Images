@@ -92,7 +92,7 @@ While this models test accuracy is 76% its Recall score for classifying patients
 
 # 6. Recommendations:
 
-Given that my stated goal was to develop a model that was effective at identifying X-ray images of patients with Pneumonia my first model achieved a Recall socre of 87%. While this leaves room for improvement considering that not identifying a patient with Pneumonia can have catostrophic consequences, this is a great first step and can be used as a prescreening tool in medical diagnosis.
+Given that my stated goal was to develop a model that was effective at identifying X-ray images of patients with Pneumonia my first model achieved a Recall socre of 85%. While this leaves room for improvement considering that not identifying a patient with Pneumonia can have catostrophic consequences, this is a great first step and can be used as a prescreening tool in medical diagnosis.
 
 Below are 3 reccommendations for the use of this model:
 1. This Model can be used to improve speed and efficiency in detection of Pneumonia. This model can help to increase productivity of radiologists and improve diagnosis accuracy.
@@ -112,7 +112,6 @@ Below are 3 reccommendations for the use of this model:
 
 - 4. Use transfer learning with pre-trained models.
 
-- 5. Adjust Thresholds.
  
        
 
