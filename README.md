@@ -37,7 +37,7 @@ This project demonstrates the potential of artificial intelligence to assist in 
 
 
 
-## The data was obtained from [kaggle.com](https://www.kaggle.com/datasets/alifrahman/chestxraydataset/data) this data set contains over 5000 x-ray images of the lungs of healthy patients and patients with Pneumonia classified either as bacterial infection or viral.
+### The data was obtained from [kaggle.com](https://www.kaggle.com/datasets/alifrahman/chestxraydataset/data) this data set contains over 5000 x-ray images of the lungs of healthy patients and patients with Pneumonia classified either as bacterial infection or viral.
 
 # 1. Load data and install necessary libraries:
 In this part of the project the data is loaded using a function get_training_data. Before this project I had never worked with a data set that was in image form. This function gets the images from my directory and places them in an empty arrary data. The fucntion then reads the images in grayscale mdoe, resizes to ensure uniform dimension for training. The resize image is then appended and its numerica label to the data array.
@@ -65,18 +65,22 @@ In the second model_2 I include BatchNormalization, Dropout and L2 regularizatio
 # 5. Model evaluation and Metrics: 
 - In this part of the process I use a classification report, confusion matrix and test accuracy to compare how both models perform.
 - Model 1 classification report and accuracy: The metric that I decided to focus on is Recall or True Postitive Rate as this metric is vital in correctly evaluating if my model does what its suppose to which is to identify X-ray images of patients with Pneumonia.
-While this models test accuracy is 77% its Recall score for classifying patients with Pneumonia is 87%.
+While this models test accuracy is 76% its Recall score for classifying patients with Pneumonia is 84%. In order to achieve this I had to adjust the threshold for classification below is a Precision-Recall visualization that helped me identify the optimal threshold.
+
+![image](https://github.com/user-attachments/assets/afeda34d-eaca-478c-84a8-e4bec645835c)
 
 
-<img width="416" alt="image" src="https://github.com/user-attachments/assets/c47f2c29-f010-4c77-b9b4-0d9781af6acb" />
+#Model 1 Metrics:
+
+![image](https://github.com/user-attachments/assets/e7bdf88d-e5ec-4231-aa32-01758ff69730)
 
 
 
 
-- Model_2 classification report and accuracy: The metric that I decided to focus on for model_2 was Recall. This models recall score was lower at 83% and its accuracy was also lower at 72%. This reduction in performace leads me to believe that my first model might be slighly overfitting as model_2 has functions to help reduce overfitting.
+- Model_2 classification report and accuracy: The metric that I decided to focus on for model_2 was Recall. This models recall score was slightly higher at 85% and its accuracy was also higher at 83%. 
 
-
-<img width="414" alt="image" src="https://github.com/user-attachments/assets/15afc1a4-6ea8-4421-be33-7eabffea0291" />
+#Model 2 Metrics
+![image](https://github.com/user-attachments/assets/d37b48ce-7646-4597-ba86-7adeac7416f6)
 
 
 
