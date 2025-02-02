@@ -43,7 +43,7 @@ This project demonstrates the potential of artificial intelligence to assist in 
 In this part of the project the data is loaded using a function get_training_data. Before this project I had never worked with a data set that was in image form. This function gets the images from my directory and places them in an empty arrary data. The fucntion then reads the images in grayscale mdoe, resizes to ensure uniform dimension for training. The resize image is then appended and its numerica label to the data array.
 This part of the project was time consuming and I had to look at online resources to help write this function. 
 # 2. EDA:
-In this step of the project I examine the qualites of my data such as number of training images, number of testing and validation images. Furthermore I get to visualize the distribution of my training and testing data which helps me determine appropriate course of action to handle imbalanced data set. I also discover an important feature, pixel intensity between lung images with Pneumonia vs. Normal lung images.
+In this step of the project I examine the qualites of my data such as number of training images, number of testing and validation images. Furthermore I get to visualize the distribution of my training and testing data which helps me determine appropriate course of action to handle imbalanced data set. Almost 75% of the images in training data are pneumonia! The dataset is heavily imbalanced and I address this during modeling. I also discovered an important feature, pixel intensity between lung images with Pneumonia vs. Normal lung images. On average 'Normal' images have greater pixel intensity than 'Pneumonia' images. 
 
 
 ![image](https://github.com/user-attachments/assets/814f2100-c08b-4b1e-a5fb-c06a7579251d)
