@@ -1,4 +1,4 @@
-## Capstone 3:Predicting Pneumonia in X-ray images
+## Capstone 3: Diagnosing Pneumonia in X-ray images
 
 ![X-ray_AI](https://github.com/user-attachments/assets/e19e1532-a61f-4b41-9dbe-ff9d7b13760c)
 
