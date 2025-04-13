@@ -53,11 +53,23 @@ This part of the project was time consuming and I had to look at online resource
 # 2. EDA:
 In this step of the project I examine the qualites of my data such as number of training images, number of testing and validation images. Furthermore I get to visualize the distribution of my training and testing data which helps me determine appropriate course of action to handle imbalanced data set. Almost 75% of the images in training data are pneumonia! The dataset is heavily imbalanced and I address this during modeling. I also discovered an important feature, pixel intensity between lung images with Pneumonia vs. Normal lung images. On average 'Normal' images have greater pixel intensity than 'Pneumonia' images. 
 
+### Normal
+
+![image](https://github.com/user-attachments/assets/48640542-4d6c-45dc-8d92-e90b335ab3a7)
+
+
+
+### Pneumonia 
+![image](https://github.com/user-attachments/assets/26fde9e1-d40b-48b9-99f6-2473cd918ef7)               
+
+
+
+### Distribution of data
 
 ![image](https://github.com/user-attachments/assets/814f2100-c08b-4b1e-a5fb-c06a7579251d)
 
 
-
+### Pixel Intensity
 ![image](https://github.com/user-attachments/assets/cc19771a-1d6c-484f-a06c-e801667e1393)
 
 
@@ -70,6 +82,10 @@ In this part of the project I decide to choose to build two Convolutional Neural
 In the second model_2 I include BatchNormalization, Dropout and L2 regularization to improve generalization and reduce overfitting, this however leads to increased time needed to train the model.  
 
 
+<img width="321" alt="image" src="https://github.com/user-attachments/assets/44fcba03-7552-4a6e-b983-01494dd6d0e3" />
+
+
+
 # 5. Model evaluation and Metrics: 
 - In this part of the process I use a classification report, confusion matrix and test accuracy to compare how both models perform.
 - Model 1 classification report and accuracy: The metric that I decided to focus on is Recall or True Postitive Rate as this metric is vital in correctly evaluating if my model does what its suppose to which is to identify X-ray images of patients with Pneumonia.
@@ -78,7 +94,7 @@ While this models test accuracy is 76% its Recall score for classifying patients
 ![image](https://github.com/user-attachments/assets/afeda34d-eaca-478c-84a8-e4bec645835c)
 
 
-#Model 1 Metrics:
+# Model 1 Metrics:
 
 
 
@@ -89,12 +105,11 @@ While this models test accuracy is 76% its Recall score for classifying patients
 
 - Model_2 classification report and accuracy: The metric that I decided to focus on for model_2 was Recall. This models recall score was slightly higher at 85% and its accuracy was also higher at 83%. 
 
-#Model 2 Metrics
+# Model 2 Metrics
 
 
 
 ![image](https://github.com/user-attachments/assets/d37b48ce-7646-4597-ba86-7adeac7416f6)
-
 
 
 
