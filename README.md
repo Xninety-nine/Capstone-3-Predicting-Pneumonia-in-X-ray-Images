@@ -33,6 +33,14 @@ Impact
 
 - Supporting healthcare systems in resource-constrained regions, improving global health outcomes.
 
+### Tech Stack:
+- Python,
+- TensorFlow/Keras
+- OpenCV
+- CNN
+- Pandas
+- Matplotlib
+
 This project demonstrates the potential of artificial intelligence to assist in medical diagnostics, addressing a pressing global health issue effectively.
 
 
